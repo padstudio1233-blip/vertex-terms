@@ -1,1 +1,290 @@
 
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#101322">
+    <title>개인정보 보호 정책 | VERTEX Bot</title>
+
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            background: #101322;
+            color: #e8eaf3;
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+        }
+
+        header {
+            padding: 65px 20px;
+            text-align: center;
+            background: linear-gradient(135deg, #202c55, #111827);
+            border-bottom: 1px solid #303c60;
+        }
+
+        .logo {
+            color: #8daaff;
+            font-size: 15px;
+            font-weight: bold;
+            letter-spacing: 5px;
+        }
+
+        h1 { font-size: 36px; margin: 12px 0; }
+        header p { color: #aeb8d1; }
+
+        main {
+            max-width: 850px;
+            margin: 40px auto;
+            padding: 0 22px;
+        }
+
+        section {
+            background: #191f33;
+            border: 1px solid #2c3550;
+            border-radius: 14px;
+            padding: 25px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #91aaff;
+            font-size: 20px;
+            margin-top: 0;
+        }
+
+        p, li {
+            color: #c6ccdc;
+            font-size: 15px;
+        }
+
+        ul { padding-left: 22px; }
+
+        a { color: #91aaff; }
+
+        .notice {
+            background: #202d4c;
+            border-left: 4px solid #7898ff;
+            padding: 16px;
+            border-radius: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 15px;
+            color: #7e879e;
+            border-top: 1px solid #30364b;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">VERTEX BOT</div>
+    <h1>개인정보 보호 정책</h1>
+    <p>이용자의 개인정보와 서비스 데이터를 보호합니다.</p>
+</header>
+
+<main>
+
+<section>
+    <h2>제1조 (목적)</h2>
+    <p>
+        VERTEX Bot(이하 "봇")은 이용자의 개인정보를 보호하고
+        서비스 이용 과정에서 처리되는 데이터에 관한 사항을
+        안내하기 위해 본 개인정보 보호 정책을 수립합니다.
+    </p>
+</section>
+
+<section>
+    <h2>제2조 (수집 및 처리하는 정보)</h2>
+    <p>봇은 기능 제공을 위해 다음 정보를 처리할 수 있습니다.</p>
+
+    <ul>
+        <li>Discord 사용자 ID</li>
+        <li>Discord 서버 ID</li>
+        <li>Discord 채널 및 메시지 ID</li>
+        <li>채팅 횟수 및 활동 기록</li>
+        <li>포인트 잔액 및 출석 기록</li>
+        <li>사용자 언어 설정</li>
+        <li>서버별 기능 및 권한 설정</li>
+        <li>공지사항, 투표, 선거 및 이벤트 관련 정보</li>
+        <li>이벤트 참여자 정보</li>
+        <li>관리 기능에 필요한 설정 및 기록 정보</li>
+    </ul>
+
+    <p>
+        봇은 Discord 사용자 ID를 이용하여 이용자를 구분하며,
+        위 정보는 서비스 기능 제공을 위한 목적으로 처리됩니다.
+    </p>
+</section>
+
+<section>
+    <h2>제3조 (정보의 이용 목적)</h2>
+    <ul>
+        <li>서버별 기능 및 설정 관리</li>
+        <li>채팅 횟수 집계 및 채팅 랭크 제공</li>
+        <li>채팅 활동에 따른 역할 지급</li>
+        <li>포인트 및 출석 기능 제공</li>
+        <li>공지, 투표, 선거 및 이벤트 관리</li>
+        <li>서버 관리 및 권한 확인</li>
+        <li>서비스 오류 확인 및 안정적인 운영</li>
+    </ul>
+</section>
+
+<section>
+    <h2>제4조 (메시지 및 로그 정보)</h2>
+    <p>
+        일부 서버에서는 관리자가 로그 기능을 활성화할 수 있습니다.
+        해당 기능이 활성화된 경우 다음 정보가 지정된 Discord
+        기록 채널에 전송될 수 있습니다.
+    </p>
+
+    <ul>
+        <li>메시지 작성자 및 사용자 ID</li>
+        <li>메시지 작성 및 삭제 내용</li>
+        <li>메시지 수정 전 내용과 수정 후 내용</li>
+        <li>메시지가 작성된 채널 정보</li>
+        <li>멘션 관련 정보</li>
+    </ul>
+
+    <p>
+        로그 기능을 사용하는 서버의 관리자는 기록 채널에 접근할
+        수 있는 사람을 적절히 제한해야 합니다.
+    </p>
+
+    <p>
+        로그 내용은 봇의 SQLite 데이터베이스가 아니라
+        해당 Discord 서버의 기록 채널에 게시되는 방식으로 처리됩니다.
+    </p>
+</section>
+
+<section>
+    <h2>제5조 (관리 기능 및 첨부파일)</h2>
+    <p>
+        타임아웃 보고 기능을 사용하는 경우 대상자, 처리자,
+        타임아웃 사유 및 처리 정보가 지정된 보고 채널에
+        전송될 수 있습니다.
+    </p>
+
+    <p>
+        관리자가 증거 파일을 첨부한 경우 해당 파일이
+        Discord 보고 채널에 업로드될 수 있습니다.
+    </p>
+</section>
+
+<section>
+    <h2>제6조 (정보의 보관 및 삭제)</h2>
+    <p>
+        봇의 데이터는 SQLite 데이터베이스를 통해 저장되며,
+        호스팅 환경에 따라 데이터가 보관됩니다.
+    </p>
+
+    <p>
+        현재 프로그램에는 모든 데이터의 일괄 자동 삭제나
+        정해진 보관 기간을 적용하는 기능이 구현되어 있지 않습니다.
+    </p>
+
+    <p>
+        따라서 데이터는 운영자가 직접 삭제하거나
+        관련 데이터베이스를 삭제하는 등의 조치가 이루어질 때까지
+        보관될 수 있습니다.
+    </p>
+
+    <p>
+        Discord 서버의 기록 채널에 전송된 로그와 첨부파일은
+        해당 Discord 서버의 관리 정책에 따라 별도로 관리됩니다.
+    </p>
+</section>
+
+<section>
+    <h2>제7조 (정보의 제3자 제공)</h2>
+    <p>
+        봇 운영자는 이용자의 개인정보를 판매하거나
+        임의로 제3자에게 제공하지 않습니다.
+    </p>
+
+    <p>
+        다만 Discord 플랫폼을 통한 서비스 제공 과정에서
+        Discord의 시스템 및 관련 정책이 적용될 수 있습니다.
+    </p>
+</section>
+
+<section>
+    <h2>제8조 (외부 서비스)</h2>
+    <p>
+        VERTEX Bot은 Discord 플랫폼을 기반으로 작동합니다.
+        따라서 Discord 서비스 이용과 관련된 데이터 처리는
+        Discord의 개인정보 보호 정책 및 이용약관의 적용을 받을 수 있습니다.
+    </p>
+
+    <p>
+        <a href="https://discord.com/privacy" target="_blank"
+           rel="noopener noreferrer">
+            Discord 개인정보 보호 정책 확인
+        </a>
+    </p>
+</section>
+
+<section>
+    <h2>제9조 (정보 보호)</h2>
+    <p>
+        운영자는 서비스 운영 과정에서 처리되는 데이터에
+        대한 무단 접근 및 유출을 방지하기 위해
+        합리적인 보호 조치를 적용하도록 노력합니다.
+    </p>
+</section>
+
+<section>
+    <h2>제10조 (이용자의 요청)</h2>
+    <p>
+        이용자는 개인정보 및 서비스 데이터의 처리와 관련하여
+        문의하거나 삭제를 요청할 수 있습니다.
+    </p>
+
+    <p>
+        요청을 접수한 경우 운영자는 요청 내용과
+        관련 법령 및 실제 삭제 가능 범위를 확인하여 처리합니다.
+    </p>
+</section>
+
+<section>
+    <h2>제11조 (정책 변경)</h2>
+    <p>
+        봇의 기능 또는 데이터 처리 방식이 변경되는 경우
+        본 정책도 변경될 수 있습니다.
+        변경 사항은 공식 안내 채널을 통해 공지할 수 있습니다.
+    </p>
+</section>
+
+<section>
+    <h2>제12조 (문의)</h2>
+    <p>
+        개인정보 처리와 관련된 문의는 VERTEX Bot 공식 지원 채널을
+        통해 접수할 수 있습니다.
+    </p>
+
+    <p>
+        공식 지원 채널: 추후 등록
+    </p>
+</section>
+
+<section class="notice">
+    <h2>시행일</h2>
+    <p>2026년 11월 14일</p>
+</section>
+
+</main>
+
+<footer>
+    © 2026 VERTEX Bot. All rights reserved.
+    <br>
+    VERTEX Development
+</footer>
+
+</body>
+</html>
